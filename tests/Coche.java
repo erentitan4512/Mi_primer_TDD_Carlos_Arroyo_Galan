@@ -4,4 +4,7 @@ public class Coche {
     public void acelerar(int aceleración) {
         velocidad += aceleración;
     }
+    public void decelerar(int deceleración) {
+        velocidad -= deceleración;
+    }
 }
